@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <select name="Land" id="plaats">
+        <option value="Amsterdam">Amsterdam</option>
+        <option value="Brussels">Brussels</option>
+        <option value="Berlin">Berlin</option>
+        <option value="Paris">Paris</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Rome">Rome</option>
+        <option value="Athens">Athens</option>
+        <option value="Istanbul">Istanbul</option>
+        <option value="Stockholm">Stockholm</option>
+        <option value="Oslo">Oslo</option>
+        <option value="Helsinki">Helsinki</option>
+    </select>
+    <button onclick="getWeather()">Get Weather</button> 
+    <div id="weer">
+        <h1>Temperatuur: <span id="temperatuur"></span></h1>
+        <h1>Wind: <span id="wind"></span></h1>
+        <h1>Neerslag: <span id="neerslag"></span></h1>
+        <h1>Luchtdruk: <span id="luchtdruk"></span></h1>
+        <h1>Voelt als: <span id="voelt"></span></h1>
+    </div>   
+    <script src="app.js"></script>
+</body>
+</html>
+</body>
+</html>
